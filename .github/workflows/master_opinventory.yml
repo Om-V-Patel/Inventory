@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'OpInventory'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8084BDAB4704400E99AD4CCA682EAE6A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DFB306132240448D91DD34C258F8445E }}
           package: '*.jar'
